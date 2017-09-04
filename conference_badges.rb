@@ -6,7 +6,6 @@ end
 
 def batch_badge_creator (array_names)
   array_badge_message = []
-  x = 0
   array_names.each_with_index do |name, i|
     array_badge_message[i] = badge_maker(name)
   end
@@ -15,7 +14,7 @@ def batch_badge_creator (array_names)
 
 def assign_rooms(array_names)
   room_assigned = []
-  
+
   array_names.each_with_index do |name, i|
     room_assigned[i] = "Hello, #{name} You'll be assigned to room #{i+1}!"
   end
