@@ -8,6 +8,5 @@ def batch_badge_creator (array_names)
   end
   array_messgae #gets returned
   end
-end
 def badge_maker(name)
 end
