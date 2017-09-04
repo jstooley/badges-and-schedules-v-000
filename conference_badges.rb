@@ -5,13 +5,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (array_names)
-  array_message = []
+  array_badge_message = []
   x = 0
   array_names.each do |name|
-    array_message[x] = badge_maker(name)
-    x +=1
+    array_badge_message[x] = badge_maker(name)
+    x += 1
   end
-  array_messgae #gets returned
+  return array_badge_message #gets returned
   end
 
 def assign_rooms(array_names)
